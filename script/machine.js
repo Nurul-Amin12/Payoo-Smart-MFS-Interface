@@ -15,3 +15,8 @@ function getBalance() {
     console.log("Balance", balance);
     return Number(balance);
 }
+
+// Set Balance
+function setBalance(balance) {
+    document.getElementById("balance").innerText = balance;
+}
